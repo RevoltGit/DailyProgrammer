@@ -6,8 +6,8 @@ int main( int argc, char *argv[] ){
     FILE *in;
     in = fopen(argv[1], "r+");
 
-    int numarray[100], counter, a, b=0, c=0, d=0, i=0, sum=0;
-    int divarray[100][100];
+    int numarray[10000000], counter, a, b=0, c=0, d=0, i=0, sum=0;
+    int divarray[10000000][10000000];
 
     while ( fscanf(in, "%d", &numarray[i++]) == 1 ){}
 
